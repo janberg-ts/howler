@@ -11,7 +11,7 @@ from howler.security import api_login
 from howler.services import analytic_service, hit_service
 from howler.odm.models.user import User
 
-from ..mappers.alert import SentinelAlertMapper
+from ..mappers.simplified_alert import SentinelAlertMapper
 
 SUB_API = "sentinel"
 sentinel_api = make_subapi_blueprint(SUB_API, api_version=1)

@@ -10,7 +10,7 @@ import json
 import pytest
 from typing import Any, Dict, List
 
-from sentinel.mappers.alert import SentinelAlertMapper
+from sentinel.mappers.simplified_alert import SentinelAlertMapper
 
 
 class TestSentinelDataResilience:
